@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import Marquee from "react-fast-marquee";
 import video1 from "../../assets/video.mp4";
 // import video2 from "../../assets/video-1.mp4";

@@ -3,7 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import WebDev from "../components/WebDev/WebDev";
 import Layout from "../Layout/MainLayout";
 import Home from "../pages/Home";
-import VideoEditing from "../components/VideoEditing/VideoEDITING.JSX";
+import VideoEditing from "../components/VideoEditing/VideoEditing.jsx";
 import UIUXDesign from "../components/UIUXDesign/UIUXDesign";
 import GraphicDesign from "../pages/GraphicDesign";
 import Blogs from "../pages/Blogs";
