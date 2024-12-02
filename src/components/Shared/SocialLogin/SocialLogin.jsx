@@ -46,6 +46,7 @@ const SocialLogin = () => {
 
     return (
         <>
+        {/* login */}
             <button onClick={handleGoogleLogin} className="mx-auto mb-4 px-8 btn text-white ">Sign In With <FaGoogle className="text-primary "></FaGoogle> </button>
         </>
     );
