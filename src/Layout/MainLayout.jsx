@@ -1,10 +1,20 @@
+import { Outlet } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Navbar from '../components/Shared/Navbar/Navbar';
+import Footer from '../components/Shared/Footer/Footer';
 
-const MainLayout = () => {
+const Layout = () => {
     return (
-        <div>
-           <h1 className="text-5xl text-center text-green-500 my-10">Welcome to Creative Lance</h1> 
-        </div>
+        <>
+    
+            <Navbar></Navbar> 
+            <ToastContainer />
+
+           <Outlet></Outlet>
+           <Footer></Footer>  
+        </>
     );
 };
 
-export default MainLayout;
+export default Layout;
