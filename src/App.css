@@ -1,3 +1,11 @@
+
+@layer utilities {
+  .animate-meteor-effect {
+    animation: meteor 5s linear infinite;
+  }
+}
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

@@ -6,12 +6,16 @@ const Footer = () => {
     <footer className="mb-96  md:px-8 p-8 font-serif">
       <div className="md:ml-4 lg:ml-0  grid lg:grid-cols-4 md:grid-cols-2 mx-auto md:gap-10 gap-8 lg:gap-2 justify-between items-center  ">
         <div>
-          <img className="md:max-w-[150px] md:max-h-[150px] max-w-[100px] max-h-[80px]  lg:-ml-0 -ml-3  " src={logo} alt="logo" />
+          <img
+            className="md:max-w-[150px] md:max-h-[150px] max-w-[100px] max-h-[80px]  lg:-ml-0 -ml-3  "
+            src={logo}
+            alt="logo"
+          />
 
           <div className="lg:ml-6 md:-mt-20 -mt-10 md:text-md text-base ">
             <p className="my-8">
-             {` We're`} a digital creative services firm. We provide web
-               development,   branding  and design services
+              {` We're`} a digital creative services firm. We provide web
+              development, branding and design services
             </p>
 
             {/* social icon */}
@@ -66,9 +70,15 @@ const Footer = () => {
         <div className=" ">
           <h1 className="  text-lg md:text-2xl font-semibold ">Contact</h1>
           <ul className="text-md md:text-lg font-normal text-[#b2b2b2] md:my-4 my-2">
-            <li className="mb-2">ceativelance@gmail.com</li>
-            <li className="mb-2">+1 732 983 1325</li>
-            <li className="mb-2">https://ceativeLance.com</li>
+            <li className="mb-2">creativelance@gmail.com</li>
+            <li className="cursor-pointer">
+              <a
+                href="https://ceativeLance.pro"
+                aria-label="Read more about Creative Lance on LinkdIn"
+              >
+                https://ceativeLance.pro
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -77,9 +87,11 @@ const Footer = () => {
       <div className="mt- py-5 border-y-0 text-center">
         <hr className="mb-2 border-blue-200" />
         <p className="">
-          &copy; Copyright 2024{" "}
-          <span className="text-[#dbfa9b]">Creative Lance <br  className="md:hidden block"/> </span> - All rights
-          reserved
+          &copy; Copyright 2025{" "}
+          <span className="text-[#dbfa9b]">
+            Creative Lance <br className="md:hidden block" />{" "}
+          </span>{" "}
+          - All rights reserved
         </p>
       </div>
     </footer>

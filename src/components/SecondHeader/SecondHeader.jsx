@@ -4,7 +4,7 @@ import "./SecondHeader.css";
 import growth from "../../../src/assets/progress-curve-1.png";
 const SecondHeader = () => {
   return (
-    <div className=" lg:flex-row flex-col flex justify-between gap-4 lg:p-14 p-8">
+    <div className=" lg:flex-row flex-col flex justify-between gap-4 lg:p-14 p-8 mt-10">
       <div className="lg:w-1/2">
         <h4 className="text-[#ffbd4a] text-base font-medium">
           DIGITAL CONSULTING

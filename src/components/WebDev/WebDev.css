@@ -1,0 +1,15 @@
+/* Define the blink animation */
+@keyframes blinkAnimation {
+    0%, 100% {
+      opacity: 1; /* Fully visible */
+    }
+    50% {
+      opacity: 0; /* Fully transparent */
+    }
+  }
+  
+  /* Apply the animation to the desired element */
+  .blink {
+    animation: blinkAnimation 1s infinite; /* 1s duration, repeats infinitely */
+  }
+  
